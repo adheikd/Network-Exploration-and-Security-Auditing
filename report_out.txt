@@ -1,0 +1,105 @@
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                                      Report - Analysis                                                                                                                                                                                       |
++----------------------------+-------+------------------------------------------------------------+---------------+---------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+-------------------+---------+------------+--------------------+--------------+
+|           Domain           |  hsts |                        http_server                         | insecure_http |                               ipv4_addresses                              | ipv6_addresses |                                           rdns_names                                           | redirect_to_https | root_ca | rtt_range  |     scan_time      | tls_versions |
++----------------------------+-------+------------------------------------------------------------+---------------+---------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+-------------------+---------+------------+--------------------+--------------+
+|         amazon.com         |  True |                           Server                           |      True     |            ['52.94.236.248', '54.239.28.85', '205.251.242.103']           |       []       |                       ['s3-console-us-standard.console.aws.amazon.com.']                       |       False       |         |  [41, 44]  | 1669700361.065289  |      []      |
+|          asee.org          | False |                            None                            |      True     |                              ['20.49.104.48']                             |       []       |                                               []                                               |       False       |         |  [34, 34]  | 1669700381.127114  |      []      |
+|  auditoryneuroscience.com  | False |                   Apache/2.4.54 (Ubuntu)                   |      True     |                             ['144.214.26.111']                            |       []       |                                 ['twinkle.bms.cityu.edu.hk.']                                  |       False       |         | [222, 222] | 1669700379.349046  |      []      |
+|        clocktab.com        | False |                         cloudflare                         |      True     |                     ['172.67.220.24', '104.21.35.119']                    |       []       |                                               []                                               |       False       |         |  [21, 22]  | 1669700379.015435  |      []      |
+|      en.wikipedia.org      |  True |                          Varnish                           |      True     |                             ['208.80.153.224']                            |       []       |                                ['text-lb.codfw.wikimedia.org.']                                |       False       |         |  [50, 50]  | 1669700359.389169  |      []      |
+|        facebook.com        |  True |                            None                            |      True     |                             ['157.240.254.35']                            |       []       |                          ['edge-star-mini-shv-02-ord5.facebook.com.']                          |       False       |         |  [19, 19]  | 1669700360.456725  |      []      |
+|         fandom.com         | False |                          Varnish                           |      True     | ['151.101.0.194', '151.101.192.194', '151.101.128.194', '151.101.64.194'] |       []       |                                               []                                               |       False       |         |  [21, 24]  | 1669700367.9198499 |      []      |
+|     gradeinflation.com     | False |                           nginx                            |      True     |                              ['51.79.45.180']                             |       []       |                                     ['gw1.ahs5.r4l.com.']                                      |       False       |         |  [37, 37]  | 1669700382.411304  |      []      |
+|        illinois.edu        | False | Apache/2.2.15 (Red Hat) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips |      True     |                              ['192.17.172.3']                             |       []       |                             ['tardis.techservices.illinois.edu.']                              |       False       |         |  [29, 29]  | 1669700378.078411  |      []      |
+|          imdb.com          |  True |                           Server                           |      True     |             ['52.94.228.167', '52.94.237.74', '52.94.225.248']            |       []       |                                               []                                               |       False       |         |  [42, 44]  | 1669700367.191923  |      []      |
+|       instagram.com        |  True |                            None                            |      True     |                            ['157.240.254.174']                            |       []       |                            ['instagram-p42-shv-02-ord5.fbcdn.net.']                            |       False       |         |  [24, 24]  | 1669700373.500467  |      []      |
+|  it.eecs.northwestern.edu  | False |  Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k   |      True     |                             ['129.105.5.142']                             |       []       |                                  ['it.ece.northwestern.edu.']                                  |       False       |         |  [23, 23]  | 1669700376.9310222 |      []      |
+|  kellogg.northwestern.edu  | False |                   Microsoft-HTTPAPI/2.0                    |      True     |                            ['165.124.147.150']                            |       []       |                          ['kelloggalumni.kellogg.northwestern.edu.']                           |       False       |         |  [22, 22]  | 1669700375.9897332 |      []      |
+|          kli.org           | False |                         LiteSpeed                          |      True     |                             ['20.127.141.51']                             |       []       |                                               []                                               |       False       |         |  [40, 40]  | 1669700384.057625  |      []      |
+| mccormick.northwestern.edu | False |                   Apache/2.4.41 (Ubuntu)                   |      True     |                             ['165.124.149.20']                            |       []       |                              ['davinci20.tech.northwestern.edu.']                              |       False       |         |  [25, 25]  | 1669700375.630348  |      []      |
+|      northwestern.edu      | False |                           BigIP                            |      True     |                             ['129.105.136.48']                            |       []       |                                  ['cnair.northwestern.edu.']                                   |       False       |         |  [22, 22]  | 1669700374.9664052 |      []      |
+|       pinterest.com        |  True |                            None                            |      True     |   ['151.101.0.84', '151.101.64.84', '151.101.128.84', '151.101.192.84']   |       []       |                                               []                                               |       False       |         |  [21, 30]  | 1669700368.317495  |      []      |
+|        pmichaud.com        | False |                           Apache                           |      True     |                             ['23.254.203.248']                            |       []       |                               ['hwsrv-233708.hostwindsdns.com.']                               |       False       |         |  [44, 44]  | 1669700383.566999  |      []      |
+|         reddit.com         |  True |                          snooserv                          |      True     | ['151.101.129.140', '151.101.1.140', '151.101.193.140', '151.101.65.140'] |       []       |                                               []                                               |       False       |         |  [19, 22]  | 1669700362.867059  |      []      |
+|        spacejam.com        |  True |            Apache/2.4.54 () OpenSSL/1.0.2k-fips            |      True     |                     ['99.83.180.228', '75.2.104.223']                     |       []       | ['a259cf76d74e1f65f.awsglobalaccelerator.com.', 'a259cf76d74e1f65f.awsglobalaccelerator.com.'] |       False       |         |  [39, 44]  | 1669700382.9083579 |      []      |
+|      stevetarzia.com       | False |      Apache/2.4.52 () OpenSSL/1.0.2k-fips PHP/5.4.16       |      True     |                              ['3.143.61.245']                             |       []       |                                  ['waffles.stevetarzia.com.']                                  |       False       |         |  [29, 29]  | 1669700378.6019042 |      []      |
+|      tripadvisor.com       | False |                           envoy                            |      True     |   ['151.101.2.28', '151.101.66.28', '151.101.130.28', '151.101.194.28']   |       []       |                                               []                                               |       False       |         |  [19, 22]  | 1669700368.9573991 |      []      |
+|        twitter.com         |  True |                           tsa_b                            |      True     |                     ['104.244.42.1', '104.244.42.129']                    |       []       |                                               []                                               |       False       |         |  [41, 43]  | 1669700359.916407  |      []      |
+|        uchicago.edu        | False |                           Apache                           |      True     |                             ['34.200.129.209']                            |       []       |                        ['ec2-34-200-129-209.compute-1.amazonaws.com.']                         |       False       |         |  [44, 44]  | 1669700377.171371  |      []      |
+| users.cs.northwestern.edu  | False |                           Apache                           |      True     |                             ['165.124.180.20']                            |       []       |                                 ['web1.cs.northwestern.edu.']                                  |       False       |         |  [29, 29]  | 1669700376.599957  |      []      |
+|        walmart.com         | False |                            None                            |      True     |                   ['161.165.150.170', '161.170.232.170']                  |       []       |                                        ['walmart.com.']                                        |       False       |         |  [46, 56]  | 1669700374.403064  |      []      |
+|          yelp.com          |  True |                          Varnish                           |      True     |                             ['146.75.76.116']                             |       []       |                                               []                                               |       False       |         |  [21, 21]  | 1669700361.730313  |      []      |
+|        youtube.com         |  True |                            None                            |      True     |                             ['142.251.32.14']                             |       []       |                                 ['ord38s33-in-f14.1e100.net.']                                 |       False       |         |  [16, 16]  | 1669700358.6398542 |      []      |
++----------------------------+-------+------------------------------------------------------------+---------------+---------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+-------------------+---------+------------+--------------------+--------------++-------------------------+
+|     Table - Root CA     |
++----------------+--------+
+| CA Certificate | Events |
++----------------+--------+
+|                |   28   |
++----------------+--------++---------------------------------------------------------------------+
+|                     Table - HTTP Server Analysis                    |
++------------------------------------------------------------+--------+
+|                        HTTP Server                         | Events |
++------------------------------------------------------------+--------+
+|                            None                            |   6    |
+|                          Varnish                           |   3    |
+|                           Apache                           |   3    |
+|                           Server                           |   2    |
+|                           tsa_b                            |   1    |
+|                          snooserv                          |   1    |
+|                           nginx                            |   1    |
+|                           envoy                            |   1    |
+|                         cloudflare                         |   1    |
+|                   Microsoft-HTTPAPI/2.0                    |   1    |
+|                         LiteSpeed                          |   1    |
+|                           BigIP                            |   1    |
+|                   Apache/2.4.54 (Ubuntu)                   |   1    |
+|            Apache/2.4.54 () OpenSSL/1.0.2k-fips            |   1    |
+|      Apache/2.4.52 () OpenSSL/1.0.2k-fips PHP/5.4.16       |   1    |
+|                   Apache/2.4.41 (Ubuntu)                   |   1    |
+|  Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k   |   1    |
+| Apache/2.2.15 (Red Hat) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips |   1    |
++------------------------------------------------------------+--------++-------------------------------------------------------------------+
+|            Events percentages for sections from Part 2            |
++------------------------+-------------------+----------------------+
+|     Part 2 Section     |    Section Name   | Percentage of Events |
++------------------------+-------------------+----------------------+
+|      Plain - HTTP      |   insecure_http   |        100.0         |
+|         HOSTS          |        hsts       |  39.285714285714285  |
+| Redirecting to - HTTPS | redirect_to_https |         0.0          |
+|      IPV6 Address      |   ipv6_addresses  |         0.0          |
++------------------------+-------------------+----------------------++----------------------------------+
+|           Table - RTT            |
++----------------------------+-----+
+|           Domain           | RTT |
++----------------------------+-----+
+|        youtube.com         |  16 |
+|        facebook.com        |  19 |
+|         reddit.com         |  19 |
+|      tripadvisor.com       |  19 |
+|        clocktab.com        |  21 |
+|         fandom.com         |  21 |
+|       pinterest.com        |  21 |
+|          yelp.com          |  21 |
+|  kellogg.northwestern.edu  |  22 |
+|      northwestern.edu      |  22 |
+|  it.eecs.northwestern.edu  |  23 |
+|       instagram.com        |  24 |
+| mccormick.northwestern.edu |  25 |
+|        illinois.edu        |  29 |
+|      stevetarzia.com       |  29 |
+| users.cs.northwestern.edu  |  29 |
+|          asee.org          |  34 |
+|     gradeinflation.com     |  37 |
+|        spacejam.com        |  39 |
+|          kli.org           |  40 |
+|         amazon.com         |  41 |
+|        twitter.com         |  41 |
+|          imdb.com          |  42 |
+|        pmichaud.com        |  44 |
+|        uchicago.edu        |  44 |
+|        walmart.com         |  46 |
+|      en.wikipedia.org      |  50 |
+|  auditoryneuroscience.com  | 222 |
++----------------------------+-----+

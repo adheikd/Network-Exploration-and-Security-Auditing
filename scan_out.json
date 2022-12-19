@@ -1,0 +1,563 @@
+{
+    "amazon.com": {
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "52.94.236.248",
+            "54.239.28.85",
+            "205.251.242.103"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "s3-console-us-standard.console.aws.amazon.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            41,
+            44
+        ],
+        "scan_time": 1669700361.065289,
+        "tls_versions": []
+    },
+    "asee.org": {
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "20.49.104.48"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            34,
+            34
+        ],
+        "scan_time": 1669700381.127114,
+        "tls_versions": []
+    },
+    "auditoryneuroscience.com": {
+        "hsts": false,
+        "http_server": "Apache/2.4.54 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "144.214.26.111"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "twinkle.bms.cityu.edu.hk."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            222,
+            222
+        ],
+        "scan_time": 1669700379.349046,
+        "tls_versions": []
+    },
+    "clocktab.com": {
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.67.220.24",
+            "104.21.35.119"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            21,
+            22
+        ],
+        "scan_time": 1669700379.015435,
+        "tls_versions": []
+    },
+    "en.wikipedia.org": {
+        "hsts": true,
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "208.80.153.224"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "text-lb.codfw.wikimedia.org."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            50,
+            50
+        ],
+        "scan_time": 1669700359.389169,
+        "tls_versions": []
+    },
+    "facebook.com": {
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "157.240.254.35"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "edge-star-mini-shv-02-ord5.facebook.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            19,
+            19
+        ],
+        "scan_time": 1669700360.456725,
+        "tls_versions": []
+    },
+    "fandom.com": {
+        "hsts": false,
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.0.194",
+            "151.101.192.194",
+            "151.101.128.194",
+            "151.101.64.194"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            21,
+            24
+        ],
+        "scan_time": 1669700367.9198499,
+        "tls_versions": []
+    },
+    "gradeinflation.com": {
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "51.79.45.180"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "gw1.ahs5.r4l.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            37,
+            37
+        ],
+        "scan_time": 1669700382.411304,
+        "tls_versions": []
+    },
+    "illinois.edu": {
+        "hsts": false,
+        "http_server": "Apache/2.2.15 (Red Hat) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "192.17.172.3"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "tardis.techservices.illinois.edu."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            29,
+            29
+        ],
+        "scan_time": 1669700378.078411,
+        "tls_versions": []
+    },
+    "imdb.com": {
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "52.94.228.167",
+            "52.94.237.74",
+            "52.94.225.248"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            42,
+            44
+        ],
+        "scan_time": 1669700367.191923,
+        "tls_versions": []
+    },
+    "instagram.com": {
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "157.240.254.174"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "instagram-p42-shv-02-ord5.fbcdn.net."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            24,
+            24
+        ],
+        "scan_time": 1669700373.500467,
+        "tls_versions": []
+    },
+    "it.eecs.northwestern.edu": {
+        "hsts": false,
+        "http_server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.5.142"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "it.ece.northwestern.edu."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            23,
+            23
+        ],
+        "scan_time": 1669700376.9310222,
+        "tls_versions": []
+    },
+    "kellogg.northwestern.edu": {
+        "hsts": false,
+        "http_server": "Microsoft-HTTPAPI/2.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.147.150"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "kelloggalumni.kellogg.northwestern.edu."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            22,
+            22
+        ],
+        "scan_time": 1669700375.9897332,
+        "tls_versions": []
+    },
+    "kli.org": {
+        "hsts": false,
+        "http_server": "LiteSpeed",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "20.127.141.51"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            40,
+            40
+        ],
+        "scan_time": 1669700384.057625,
+        "tls_versions": []
+    },
+    "mccormick.northwestern.edu": {
+        "hsts": false,
+        "http_server": "Apache/2.4.41 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.149.20"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "davinci20.tech.northwestern.edu."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            25,
+            25
+        ],
+        "scan_time": 1669700375.630348,
+        "tls_versions": []
+    },
+    "northwestern.edu": {
+        "hsts": false,
+        "http_server": "BigIP",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.136.48"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "cnair.northwestern.edu."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            22,
+            22
+        ],
+        "scan_time": 1669700374.9664052,
+        "tls_versions": []
+    },
+    "pinterest.com": {
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.0.84",
+            "151.101.64.84",
+            "151.101.128.84",
+            "151.101.192.84"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            21,
+            30
+        ],
+        "scan_time": 1669700368.317495,
+        "tls_versions": []
+    },
+    "pmichaud.com": {
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.254.203.248"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "hwsrv-233708.hostwindsdns.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            44,
+            44
+        ],
+        "scan_time": 1669700383.566999,
+        "tls_versions": []
+    },
+    "reddit.com": {
+        "hsts": true,
+        "http_server": "snooserv",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.129.140",
+            "151.101.1.140",
+            "151.101.193.140",
+            "151.101.65.140"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            19,
+            22
+        ],
+        "scan_time": 1669700362.867059,
+        "tls_versions": []
+    },
+    "spacejam.com": {
+        "hsts": true,
+        "http_server": "Apache/2.4.54 () OpenSSL/1.0.2k-fips",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "99.83.180.228",
+            "75.2.104.223"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a259cf76d74e1f65f.awsglobalaccelerator.com.",
+            "a259cf76d74e1f65f.awsglobalaccelerator.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            39,
+            44
+        ],
+        "scan_time": 1669700382.9083579,
+        "tls_versions": []
+    },
+    "stevetarzia.com": {
+        "hsts": false,
+        "http_server": "Apache/2.4.52 () OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.143.61.245"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "waffles.stevetarzia.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            29,
+            29
+        ],
+        "scan_time": 1669700378.6019042,
+        "tls_versions": []
+    },
+    "tripadvisor.com": {
+        "hsts": false,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.2.28",
+            "151.101.66.28",
+            "151.101.130.28",
+            "151.101.194.28"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            19,
+            22
+        ],
+        "scan_time": 1669700368.9573991,
+        "tls_versions": []
+    },
+    "twitter.com": {
+        "hsts": true,
+        "http_server": "tsa_b",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.244.42.1",
+            "104.244.42.129"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            41,
+            43
+        ],
+        "scan_time": 1669700359.916407,
+        "tls_versions": []
+    },
+    "uchicago.edu": {
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "34.200.129.209"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-34-200-129-209.compute-1.amazonaws.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            44,
+            44
+        ],
+        "scan_time": 1669700377.171371,
+        "tls_versions": []
+    },
+    "users.cs.northwestern.edu": {
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.180.20"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "web1.cs.northwestern.edu."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            29,
+            29
+        ],
+        "scan_time": 1669700376.599957,
+        "tls_versions": []
+    },
+    "walmart.com": {
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "161.165.150.170",
+            "161.170.232.170"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "walmart.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            46,
+            56
+        ],
+        "scan_time": 1669700374.403064,
+        "tls_versions": []
+    },
+    "yelp.com": {
+        "hsts": true,
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "146.75.76.116"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            21,
+            21
+        ],
+        "scan_time": 1669700361.730313,
+        "tls_versions": []
+    },
+    "youtube.com": {
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "142.251.32.14"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ord38s33-in-f14.1e100.net."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "rtt_range": [
+            16,
+            16
+        ],
+        "scan_time": 1669700358.6398542,
+        "tls_versions": []
+    }
+}
